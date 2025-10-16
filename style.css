@@ -9,14 +9,14 @@ body{
    justify-content: center;
    align-items: center;
    min-height: 100vh;
-   background: #222;
-   
-   
+   background: #222;   
 }
 
 body.on{
     background: radial-gradient(#555,#111);
-    background-image: url(/photo.jpg);
+    background-image: url(/Tamanho\ Pagina\ Web.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .bulb{
@@ -63,7 +63,7 @@ body.on .bulb::after{
     transform: translate(-50%,-50%);
     width: 120px;
     height: 120px;
-    background: #fff;
+    background: #f0f01a; /*Cor da Lâmpada*/
     border-radius: 50%;
     filter: blur(40px);
 }
@@ -117,7 +117,7 @@ body.on .bulb span:nth-child(2){
     right: 50px;
     width: 80px;
     height: 80px;
-    background: linear-gradient(#eee,#ccc,#eee);
+    background: linear-gradient(#eee,#f6f07a,#eee);
     border: 3px solid #000;
     border-radius: 10px;
     display: flex;
